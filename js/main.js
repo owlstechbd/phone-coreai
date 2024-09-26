@@ -91,7 +91,7 @@ $(document).ready(function () {
   var leaderOwl = $(".leader-carousel").owlCarousel({
     loop: true,
     margin: 20,
-    autoplay: true,
+    autoplay: false,
     responsive: {
       0: {
         items: 2, // Show 2 items on mobile devices

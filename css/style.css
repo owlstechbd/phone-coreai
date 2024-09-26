@@ -129,6 +129,7 @@ a:hover {
     }
 
     .hamburger {
+        position: absolute;
         display: flex;
     }
 
@@ -961,11 +962,13 @@ input[type="submit"] {
 
     .logo {
         width: 20%;
+        margin: 0 auto;
         text-align: center;
     }
 
     .logo img {
-        width: auto;
+        width: 120px;
+        margin-bottom: -15px;
     }
 
 
@@ -1889,7 +1892,7 @@ partner */
     }
     .menu{
         margin-top: -5px;
-       height: 90vh;
+       height: 40vh;
         justify-content: center;
         padding-bottom: 30px;
     }
@@ -2002,6 +2005,14 @@ partner */
     .leader-iteam h3 {
         font-size: 15px;
     }
+    .menu-btn {
+        margin-top: 5px;
+        padding: 9px 20px;
+        font-size: 12px;
+        border: none;
+    }
 }
-
+.leader-txt{
+    margin-bottom: 50px;
+}
 
